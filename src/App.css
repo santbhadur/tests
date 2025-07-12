@@ -1,0 +1,209 @@
+
+.canvas{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.vastu {
+  width: 20%;
+  height: 70%;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+}
+
+.vas {
+  width: 100%;
+  height: 100vh;
+  background-color: #fffa9c;
+
+}
+.main {
+  width: 20%;
+  height: 90vh;
+  background-color: #f9f9f9;
+  margin-top: -19px;
+}
+.down{
+  position: absolute;
+  top: 91.5%;
+  left: 67%;
+}
+.title{
+  font-size: 45px;
+  color: #fffa9c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: none;
+  font-family: "Gill Sans", sans-serif;
+}
+.Header{
+  width: 100%;
+  height: 10vh;
+  background-color: #f4b23f;
+}
+.circle{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.vastuu {
+  width: 50%;
+  height: 80%;
+  display: grid;
+  place-items: center; /* Center both horizontally and vertically */
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f4f4;
+  
+}
+.map{
+  margin-left: 10px;
+
+}
+.map1{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+.map2{
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
+.map3{
+  margin-left: 20px;
+  margin-bottom: 7px;
+  
+}
+.online{
+  width: 30%;
+  height: 70%;
+  background-color: #f4b23f;
+}
+
+#myCanvas{
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.canvasRef{
+  margin-top: -480px;
+  margin-left: 400px;
+
+}
+.imag{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 19px;
+  
+}
+.img1{
+margin-top: 50px;
+  
+}
+.class1 {
+  width: 20%;
+  height: 90vh;
+  position: absolute;
+  right: 0px;
+  margin-top: -131px;
+  font-size: 14px;
+  border: none;
+  background-color: #f9f9f9;
+}
+.class01 {
+  margin: 10px;
+  
+}
+.class02 {
+  margin: 0px 5px 5px 4px;
+  
+  padding: 3px;
+}
+.class03 {
+  padding: 3px;
+}
+@media (max-width: 1366px) {
+  .vastuu {
+    width: 52%;
+    height: 80%;
+    top: 52%; /* Adjust centering */
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+
+  .main {
+    width: 25%;
+    height: 85vh;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .online {
+    width: 40%;
+  }
+}
+
+/* Responsive styles for tablets (max width: 768px) */
+@media (max-width: 768px) {
+  .vastuu {
+    width: 60%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px; /* Add spacing for content */
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .online {
+    width: 50%;
+    height: auto;
+  }
+
+  .down {
+    position: static; /* Avoid overlapping */
+    margin-top: 20px;
+  }
+}
+
+/* Responsive styles for mobile (max width: 480px) */
+@media (max-width: 480px) {
+  .vastuu {
+    width: 90%;
+    height: auto;
+    padding: 15px; /* Extra padding for smaller screens */
+  }
+
+  .main {
+    width: 100%;
+    height: auto;
+  }
+
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .online {
+    width: 100%;
+    height: auto;
+  }
+
+  .down {
+    position: static;
+    margin-top: 20px;
+    text-align: center;
+  }
+}
